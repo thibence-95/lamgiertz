@@ -1,4 +1,5 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport"
@@ -12,20 +13,60 @@
 	<div class="carousel-wrapper">
 
 		<div class="carousel">
-			<img class="carousel__photo initial" src="https://raw.githubusercontent.com/thibence-95/lamgiertz/master/assets/imgs/sommelier.jpg" alt="">
-			<img class="carousel__photo" src="https://raw.githubusercontent.com/thibence-95/lamgiertz/master/assets/imgs/water3.jpg" alt="">
-			<img class="carousel__photo" src="https://raw.githubusercontent.com/thibence-95/lamgiertz/master/assets/imgs/water2.jpg" alt="">
+			<img class="carousel_photo initial" src="assets/imgs/sommelier.jpg" alt="sommelier">
+			<img class="carousel_photo" src="assets/imgs/water3.jpg" alt="jury">
+			<img class="carousel_photo" src="assets/imgs/water2.jpg" alt="water">
+
+
+			<div class="carousel_button-next"></div>
+			<div class="carousel_button-prev"></div>
 
 
 			<div class="carousel__button--next"></div>
 			<div class="carousel__button--prev"></div>
 
+
 		</div>
 	</div>
-
-
 </header>
+
+<main>
+	<ul id="tabs">
+		<li><a href="#tab1">Summary</a></li>
+		<li><a href="#tab2">Practical info</a></li>
+		<li><a href="#tab3">Contact form</a></li>
+	</ul>
+	<div class="container" id="tab1">
+		<p>A competition where the best water tasters will match up and test their skills.</p>
+	</div>
+	<div class="container" id="tab2">
+		<p>Random street 5 </br>
+			2000 Antwerp </br>
+			Belgium</p>
+		<p>info@water.be</p>
+		<p>30/05/2020</p>
+	</div>
+	<div class="container" id="tab3">
+		<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+			Name:<br>
+			<input type="text" name="name"><br>
+			E-mail:<br>
+			<input type="text" name="mail"><br>
+			Message:<br>
+			<input type="text" name="message" size="50"><br><br>
+			<input type="submit" value="Send">
+		</form>
+	</div>
+</main>
 
 <script src="assets/script/script.js"></script>
 </body>
+
+
+<footer>
+
+</footer>
+
 </html>
+
+

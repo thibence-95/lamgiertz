@@ -7,11 +7,7 @@
     box-sizing: border-box;
 }
 
-.carousel {
-    transform-style: preserve-3d;
-}
-
-.carousel__photo {
+.carousel_photo {
     opacity: 0;
     position: absolute;
     top:0;
@@ -22,53 +18,107 @@
     transition: transform .5s, opacity .5s, z-index .5s;
 }
 
-.carousel__photo.initial,
-.carousel__photo.active {
+.carousel_photo.initial,
+.carousel_photo.active {
     opacity: 1;
     position: relative;
-    z-index: 900;
 }
 
-.carousel__photo.prev,
-.carousel__photo.next {
-    z-index: 800;
-}.carousel__photo.prev {
-     transform: translateX(-100%); /* Move 'prev' item to the left */
- }.carousel__photo.next {
+.carousel_photo.next {
+      transform: translateX(-100%); /* Move 'prev' item to the left */
+ }.carousel_photo.next {
       transform: translateX(100%); /* Move 'next' item to the right */
   }
 
-.carousel__button--prev,
-.carousel__button--next {
+.carousel_button-prev,
+.carousel_button-next {
     position: absolute;
     top:50%;
     width: 3rem;
     height: 3rem;
     background-color: #FFF;
-    transform: translateY(-50%);
     border-radius: 50%;
-    cursor: pointer;
-    z-index: 1001; /* Sit on top of everything */
     border: 1px solid black;
-}.carousel__button--prev {
+}.carousel_button-prev {
      left:0;
- }.carousel__button--next {
+ }.carousel_button-next {
       right:0;
-  }.carousel__button--prev::after,
-   .carousel__button--next::after {
-       content: " ";
-       position: absolute;
-       width: 10px;
-       height: 10px;
-       top: 50%;
-       left: 54%;
-       border-right: 2px solid black;
-       border-bottom: 2px solid black;
-       transform: translate(-50%, -50%) rotate(135deg);
-   }.carousel__button--next::after {
+  }.carousel_button-prev::after,
+   .carousel_button-next::after {
+           content: " ";
+           position: absolute;
+           width: 10px;
+           height: 10px;
+           top: 50%;
+           left: 54%;
+           border-right: 2px solid black;
+           border-bottom: 2px solid black;
+          transform: translate(-50%, -50%) rotate(135deg);
+   }.carousel_button-next::after {
         left: 47%;
         transform: translate(-50%, -50%) rotate(-45deg);
     }
+
+#tabs {
+    border:1px solid #ccc;
+    text-align: center;
+    height:35px;
+    padding-left: 40px;
+    padding-top:45px;
+    background:#eff5f9;
+    box-shadow: inset 0 -2px 2px #dadada;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border-margin: 10px;
+}
+
+#tabs li {
+    float: left;
+    list-style: none;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-shadow: 0 -2px 2px #dadada;
+}
+
+#tabs li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #000000;
+    width : 300px;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    background: #FFFFFF;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    text-decoration: none;
+    border-top: 1px solid white;
+    text-shadow: -1px -1px 0 #fff;
+    outline: none;
+}
+
+#tabs li a.inactive{
+    padding-top:5px;
+    padding-bottom:5px;
+    color:#666666;
+    background: linear-gradient(top, #dedede, white 75%);
+    border-top: 1px solid white;
+}
+#tabs li a:hover, #tabs li a.inactive:hover {
+    border-top: 1px solid #dedede;
+    color:#000000;
+}
+
+.container{
+    clear:both;
+    padding:10px 10px;
+    width:auto;
+    background-color:#fff;
+    text-align:center;
+}
 
 
 
