@@ -1,0 +1,17 @@
+Index: assets/script/script.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>function doc() {\n\n    function carousel() {\n\n        let className = \"carousel__photo\";\n        let items = carousel.getElementsByClassName(itemClassName),\n            totalItems = items.length,\n            slide = 0,\n            moving = true;\n\n        function setInitClasses() {\n\n            items[totalItems - 1].classList.add(\"prev\");\n            items[0].classList.add(\"active\");\n            items[1].classList.add(\"next\");\n\n        }\n\n        function setEventListeners() {\n\n            var next = d.getElementsByClassName('carousel__button--next')[0],\n                prev = d.getElementsByClassName('carousel__button--prev')[0];\n            next.addEventListener('click', moveNext);\n            prev.addEventListener('click', movePrev);\n        }\n\n        function moveNext() {\n\n            //is it moving?\n            if (!moving) {\n\n                 //reset to first if on last\n                if (slide === (totalItems - 1)) {\n                    slide = 0;\n                }\n                else {\n                   slide++;\n                }\n\n                moveCarouselTo(slide);\n            }\n        }\n\n        function movePrev() {\n\n            //is it moving?\n            if (!moving) {\n\n                //reset to first if on last\n                if (slide === (totalItems - 1)) {\n                    slide = 0;\n                }\n                else {\n                    slide--;\n                }\n\n                moveCarouselTo(slide);\n        }\n    }\n\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- assets/script/script.js	(revision a0605b96c9dd63ffd791bfa8d9411652349469d3)
++++ assets/script/script.js	(date 1590759955914)
+@@ -58,4 +58,4 @@
+         }
+     }
+ 
+-}
+\ No newline at end of file
++};
+\ No newline at end of file

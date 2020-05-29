@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1bda13b5-e6a1-418e-8352-524c30d61bcd" name="Default Changelist" comment="way past time but hey">
+      <change beforePath="$PROJECT_DIR$/assets/script/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/script/script.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1cZb5mEIETYYkPaPxg6MECZyThu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1bda13b5-e6a1-418e-8352-524c30d61bcd" name="Default Changelist" comment="" />
+      <created>1590738881910</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590738881910</updated>
+      <workItem from="1590738883266" duration="4037000" />
+      <workItem from="1590744893898" duration="7018000" />
+    </task>
+    <task id="LOCAL-00001" summary="linked up">
+      <created>1590739443987</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590739443987</updated>
+    </task>
+    <task id="LOCAL-00002" summary="flattened the curve i think?">
+      <created>1590745286645</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590745286645</updated>
+    </task>
+    <task id="LOCAL-00003" summary="catchin up">
+      <created>1590755079146</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590755079146</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="RELOAD_CONTEXT" value="false" />
+    <MESSAGE value="linked up" />
+    <MESSAGE value="flattened the curve i think?" />
+    <MESSAGE value="catchin up" />
+    <option name="LAST_COMMIT_MESSAGE" value="catchin up" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="119" y="27" width="1117" height="684" key="CommitChangelistDialog2" timestamp="1590759929793">
+      <screen x="0" y="27" width="1366" height="684" />
+    </state>
+    <state x="119" y="27" width="1117" height="684" key="CommitChangelistDialog2/0.27.1366.684@0.27.1366.684" timestamp="1590759929793" />
+    <state x="132" y="79" width="1092" height="577" key="MergeDialog" timestamp="1590759974962">
+      <screen x="0" y="27" width="1366" height="684" />
+    </state>
+    <state x="132" y="79" width="1092" height="577" key="MergeDialog/0.27.1366.684@0.27.1366.684" timestamp="1590759974962" />
+    <state x="278" y="104" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1590755099834">
+      <screen x="0" y="27" width="1366" height="684" />
+    </state>
+    <state x="278" y="104" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.684@0.27.1366.684" timestamp="1590755099834" />
+    <state x="454" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590755020665">
+      <screen x="0" y="27" width="1366" height="684" />
+    </state>
+    <state x="454" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1366.684@0.27.1366.684" timestamp="1590755020665" />
+    <state x="272" y="62" width="811" height="612" key="git4idea.branch.GitSmartOperationDialog" timestamp="1590759958935">
+      <screen x="0" y="27" width="1366" height="684" />
+    </state>
+    <state x="272" y="62" width="811" height="612" key="git4idea.branch.GitSmartOperationDialog/0.27.1366.684@0.27.1366.684" timestamp="1590759958935" />
+  </component>
+</project>
